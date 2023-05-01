@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+            font-size: 70px;
+            background-color: aqua;
+            display: inline;
+            border: 2px green solid;
+            animation-name: adfar;
+            position: relative;
+           animation-iteration-count: infinite;
+           transition: transfrom 2s, font-size 3s;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes adfar {
+            0% {color: red;background-color: aqua; top: 0px;left: 0px;}
+            25% {color: blue;background-color: blueviolet;top: 0px;left: 400px;}
+            50%{color:yellow;background-color: brown;top: 400px;left: 400px;}
+            75%{color: green;background-color: black;top: 400px;left: 0px;}
+            100%{color:black;background-color: aqua;top: 0px;left: 0px;}
+        }
+        h1:hover{
+            
+            font-size: 40px;
+            transform: rotate(130deg);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Adfar</h1>
+</body>
+</html>
